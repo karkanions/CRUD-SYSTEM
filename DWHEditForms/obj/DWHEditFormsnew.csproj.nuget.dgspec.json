@@ -1,0 +1,206 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\01 Development\\Projects\\DWH Edit\\DWHEditFormsnew\\DWHEditFormsnew.csproj": {}
+  },
+  "projects": {
+    "C:\\01 Development\\Projects\\DWH Edit\\Bussinesss\\Bussinesss.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\01 Development\\Projects\\DWH Edit\\Bussinesss\\Bussinesss.csproj",
+        "projectName": "Bussinesss",
+        "projectPath": "C:\\01 Development\\Projects\\DWH Edit\\Bussinesss\\Bussinesss.csproj",
+        "packagesPath": "C:\\Users\\dniarchos\\.nuget\\packages\\",
+        "outputPath": "C:\\01 Development\\Projects\\DWH Edit\\Bussinesss\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\dniarchos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj": {
+                "projectPath": "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj",
+        "projectName": "DataAccesss",
+        "projectPath": "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj",
+        "packagesPath": "C:\\Users\\dniarchos\\.nuget\\packages\\",
+        "outputPath": "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\dniarchos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\01 Development\\Projects\\DWH Edit\\DWHEditFormsnew\\DWHEditFormsnew.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\01 Development\\Projects\\DWH Edit\\DWHEditFormsnew\\DWHEditFormsnew.csproj",
+        "projectName": "DWHEditFormsnew",
+        "projectPath": "C:\\01 Development\\Projects\\DWH Edit\\DWHEditFormsnew\\DWHEditFormsnew.csproj",
+        "packagesPath": "C:\\Users\\dniarchos\\.nuget\\packages\\",
+        "outputPath": "C:\\01 Development\\Projects\\DWH Edit\\DWHEditFormsnew\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\dniarchos\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\01 Development\\Projects\\DWH Edit\\Bussinesss\\Bussinesss.csproj": {
+                "projectPath": "C:\\01 Development\\Projects\\DWH Edit\\Bussinesss\\Bussinesss.csproj"
+              },
+              "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj": {
+                "projectPath": "C:\\01 Development\\Projects\\DWH Edit\\DataAccesss\\DataAccesss.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "AdvancedWizard": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "ExcelDataReader": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "ExcelDataReader.DataSet": {
+              "target": "Package",
+              "version": "[3.6.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.8, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

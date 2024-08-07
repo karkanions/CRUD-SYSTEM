@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.34114.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWHEditForms", "DWHEditForms.csproj", "{81AB460E-84C1-41D5-B204-DFFF2A6B9795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccesss", "..\DataAccesss\DataAccesss.csproj", "{163EB08F-F1D7-4AEF-AF02-ED34063ED6D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussinesss", "..\Bussinesss\Bussinesss.csproj", "{195474A4-10C2-4E6D-BB9E-55B88406A145}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DWEFormsWeb", "..\DWEFormsWeb\DWEFormsWeb.csproj", "{2E8737F4-31E6-48A9-A170-3B15E2DE2A69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81AB460E-84C1-41D5-B204-DFFF2A6B9795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81AB460E-84C1-41D5-B204-DFFF2A6B9795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81AB460E-84C1-41D5-B204-DFFF2A6B9795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81AB460E-84C1-41D5-B204-DFFF2A6B9795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{163EB08F-F1D7-4AEF-AF02-ED34063ED6D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{163EB08F-F1D7-4AEF-AF02-ED34063ED6D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{163EB08F-F1D7-4AEF-AF02-ED34063ED6D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{163EB08F-F1D7-4AEF-AF02-ED34063ED6D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{195474A4-10C2-4E6D-BB9E-55B88406A145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{195474A4-10C2-4E6D-BB9E-55B88406A145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{195474A4-10C2-4E6D-BB9E-55B88406A145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{195474A4-10C2-4E6D-BB9E-55B88406A145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E8737F4-31E6-48A9-A170-3B15E2DE2A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8737F4-31E6-48A9-A170-3B15E2DE2A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8737F4-31E6-48A9-A170-3B15E2DE2A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8737F4-31E6-48A9-A170-3B15E2DE2A69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7622E30-845C-4949-BB62-1391475B8DAD}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/qquantanalytics
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ..\\Bussinesss\\Bussinesss.csproj
+		SccProjectName1 = ../Bussinesss
+		SccLocalPath1 = ..\\Bussinesss
+		SccProjectUniqueName2 = ..\\DataAccesss\\DataAccesss.csproj
+		SccProjectName2 = ../DataAccesss
+		SccLocalPath2 = ..\\DataAccesss
+		SccProjectUniqueName3 = ..\\DWEFormsWeb\\DWEFormsWeb.csproj
+		SccProjectName3 = ../DWEFormsWeb
+		SccLocalPath3 = ..\\DWEFormsWeb
+		SccProjectUniqueName4 = DWHEditForms.csproj
+		SccLocalPath4 = .
+	EndGlobalSection
+EndGlobal

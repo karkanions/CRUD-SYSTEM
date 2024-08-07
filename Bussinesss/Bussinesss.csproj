@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{195474A4-10C2-4E6D-BB9E-55B88406A145}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bussinesss</RootNamespace>
+    <AssemblyName>Bussinesss</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bussines.cs" />
+    <Compile Include="BussinesEntities\AuditTableDto.cs" />
+    <Compile Include="BussinesEntities\CampaignPoolDto.cs" />
+    <Compile Include="BussinesEntities\CampaignsDto.cs" />
+    <Compile Include="BussinesEntities\CampaignTypeDto.cs" />
+    <Compile Include="BussinesEntities\CampaignWavesDto.cs" />
+    <Compile Include="BussinesEntities\TestingInputDto.cs" />
+    <Compile Include="Excel\ExcelEnums.cs" />
+    <Compile Include="Excel\ExcelParameters.cs" />
+    <Compile Include="Excel\ExcelReadResponse.cs" />
+    <Compile Include="Excel\ExcelValidator.cs" />
+    <Compile Include="Helper\ColumnAccess.cs" />
+    <Compile Include="Helper\EnumHelp.cs" />
+    <Compile Include="Helper\ExtensionMethods.cs" />
+    <Compile Include="Helper\GetColumns.cs" />
+    <Compile Include="Helper\HelpingMethod.cs" />
+    <Compile Include="Helper\TypeExtensions.cs" />
+    <Compile Include="Mapping\AutomapperConverters.cs" />
+    <Compile Include="Mapping\AutoMapperExtension.cs" />
+    <Compile Include="Mapping\AutomapperSettings.cs" />
+    <Compile Include="ParametersInputs.cs" />
+    <Compile Include="Parameters\ColumnsDto.cs" />
+    <Compile Include="Parameters\SearchTypesMapping.cs" />
+    <Compile Include="Parameters\TablesDto.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\BussinessSettings.cs" />
+    <Compile Include="Settings\IBussissensSettings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper">
+      <Version>10.1.1</Version>
+    </PackageReference>
+    <PackageReference Include="ExcelDataReader">
+      <Version>3.6.0</Version>
+    </PackageReference>
+    <PackageReference Include="ExcelDataReader.DataSet">
+      <Version>3.6.0</Version>
+    </PackageReference>
+    <PackageReference Include="NLog">
+      <Version>5.2.8</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataAccesss\DataAccesss.csproj">
+      <Project>{163eb08f-f1d7-4aef-af02-ed34063ed6d2}</Project>
+      <Name>DataAccesss</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
